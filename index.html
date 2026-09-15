@@ -7,10 +7,10 @@
   <link href="./src/output.css" rel="stylesheet">
 </head>
 
-<body class="">
+<body class="relative overflow-x-hidden">
   <!--Nav and hero-->
-  <section class="w-full min-h-screen flex flex-col">
-    <nav class="py-5 xl:pl-11 xl:pr-20.5 px-4.5 flex items-center justify-between">
+  <section class="w-full min-h-screen flex flex-col lg:min-h-0 lg:h-[700px]">
+    <nav class="max-w-[1440px] w-full mx-auto py-5 xl:pl-11 xl:pr-20.5 px-4.5 flex items-center justify-between">
       <h3 class="font-bold text-[20px] text-[#424955]">Ayuvista</h3>
 
       <div class="xl:flex hidden items-center gap-13">
@@ -37,121 +37,130 @@
     </nav>
 
     <main class="bg-[#BCC1CA] w-full h-full flex-1 relative">
-      <div class="flex flex-col items-center">
-        <h1 class="font-semibold sm:text-7xl text-5xl text-center text-[#171A1F] mt-[10%]">Pranovista</h1>
-        <h2 class="font-semibold sm:text-5xl text-3xl text-center text-[#171A1F] mt-[0.5%]">Wellness for you</h2>
-        <button class="w-[215px] h-[52px] bg-white rounded-3xl font-extrabold text-[20px] text-[#636AE8] mt-[2%]">Sign
-          up</button>
+      <div class="max-w-[1440px] mx-auto w-full h-full relative">
+        <div class="flex flex-col items-center">
+          <h1 class="font-semibold sm:text-7xl text-5xl text-center text-[#171A1F] mt-[10%]">Pranovista</h1>
+          <h2 class="font-semibold sm:text-5xl text-3xl text-center text-[#171A1F] mt-[0.5%]">Wellness for you</h2>
+          <button class="w-[215px] h-[52px] bg-white rounded-3xl font-extrabold text-[20px] text-[#636AE8] mt-[2%]">Sign
+            up</button>
+        </div>
+        <img src="./img/wellness1.png" alt=""
+          class="absolute w-[85px] h-[85px] rounded-full top-[128px] left-[64px] xl:flex hidden">
+        <img src="./img/wellness2.png" alt=""
+          class="absolute w-[120px] h-[120px] rounded-full top-[397px] left-[64px] xl:flex hidden">
+        <img src="./img/wellness3.png" alt=""
+          class="absolute lg:w-[256px] lg:h-[256px] w-[150px] h-[150px] rounded-full md:top-[187px] top-52 xl:left-[200px] lg:left-10 left-5">
+        <img src="./img/wellness4.png" alt=""
+          class="absolute lg:w-[267px] lg:h-[267px] w-[150px] h-[150px] rounded-full top-[281px] xl:left-[871px] lg:left-170 md:left-120 right-5">
+        <img src="./img/wellness5.png" alt=""
+          class="absolute w-[160px] h-[160px] rounded-full top-[128px] left-[1084px] xl:flex hidden">
+        <img src="./img/wellness6.png" alt=""
+          class="absolute w-[86px] h-[86px] rounded-full top-[328px] left-[1250px] xl:flex hidden">
       </div>
-      <img src="./img/wellness1.png" alt=""
-        class="absolute w-[85px] h-[85px] rounded-full top-[128px] left-[64px] xl:flex hidden">
-      <img src="./img/wellness2.png" alt=""
-        class="absolute w-[120px] h-[120px] rounded-full top-[397px] left-[64px] xl:flex hidden">
-      <img src="./img/wellness3.png" alt=""
-        class="absolute lg:w-[256px] lg:h-[256px] w-[150px] h-[150px] rounded-full md:top-[187px] top-52 xl:left-[200px] lg:left-10 left-5">
-      <img src="./img/wellness4.png" alt=""
-        class="absolute lg:w-[267px] lg:h-[267px] w-[150px] h-[150px] rounded-full top-[281px] xl:left-[871px] lg:left-170 md:left-120 right-5">
-      <img src="./img/wellness5.png" alt=""
-        class="absolute w-[160px] h-[160px] rounded-full top-[128px] left-[1084px] xl:flex hidden">
-      <img src="./img/wellness6.png" alt=""
-        class="absolute w-[86px] h-[86px] rounded-full top-[328px] left-[1250px] xl:flex hidden">
     </main>
   </section>
 
   <!--about us section-->
-  <section class="mt-20 md:mx-30 mx-10 flex items-center justify-between gap-16 flex-wrap">
+  <section class="w-full mt-20">
+    <div class="max-w-[1440px] mx-auto md:px-30 px-10 flex items-center justify-between gap-16 flex-wrap">
 
-    <!--Left side-->
-    <div class="flex flex-col gap-0 xl:max-w-[472px] max-w-full">
-      <p class="font-normal text-[14px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
-      <div>
-        <h4 class="font-bold text-[52px] text-[#323842]">About us</h4>
-        <img src="./img/about-us-line.svg" alt="" class="w-[247px] h-[24px]">
-      </div>
-      <p class="font-normal text-[16px] text-[#323842] leading-7 mt-5">
-        Pranovista is a holistic wellness company dedicated to promoting a balanced and healthy lifestyle
-        through the ancient practices of yoga and Ayurveda. With a deep-rooted commitment to well-being,
-        Pranovista offers personalized wellness solutions that blend traditional wisdom with modern needs.
-        Our expert-guided programs focus on enhancing physical, mental, and spiritual harmony, empowering
-        individuals to achieve optimal health naturally
-      </p>
-      <button class="w-[242px] h-[52px] border border-[#636AE8] rounded-3xl font-bold text-[18px] text-[#636AE8] mt-5">
-        Learn more
-      </button>
-    </div>
-
-    <!--right side-->
-    <div class="relative md:h-[517px] flex items-center justify-center shrink-0 xl:mx-0 mx-auto md:w-fit w-full">
-      <div class="md:w-[488px] w-full h-full bg-[#FDF1F5] rounded-t-full relative z-40 hidden md:flex">
-        <img src="./img/girl-standing.png" alt="yoga" class="md:w-[485px] w-full md:h-[459px] absolute top-14">
+      <!--Left side-->
+      <div class="flex flex-col gap-0 xl:max-w-[472px] max-w-full">
+        <p class="font-normal text-[14px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
+        <div>
+          <h4 class="font-bold text-[52px] text-[#323842]">About us</h4>
+          <img src="./img/about-us-line.svg" alt="" class="w-[247px] h-[24px]">
+        </div>
+        <p class="font-normal text-[16px] text-[#323842] leading-7 mt-5">
+          Pranovista is a holistic wellness company dedicated to promoting a balanced and healthy lifestyle
+          through the ancient practices of yoga and Ayurveda. With a deep-rooted commitment to well-being,
+          Pranovista offers personalized wellness solutions that blend traditional wisdom with modern needs.
+          Our expert-guided programs focus on enhancing physical, mental, and spiritual harmony, empowering
+          individuals to achieve optimal health naturally
+        </p>
+        <button
+          class="w-[242px] h-[52px] border border-[#636AE8] rounded-3xl font-bold text-[18px] text-[#636AE8] mt-5">
+          Learn more
+        </button>
       </div>
 
-      <!--floating card-->
-      <div
-        class="absolute left-[-150px] top-35 bg-white rounded-2xl shadow-lg p-5 w-[235px] h-[268px] md:flex hidden flex-col gap-4">
-        <p class="font-bold text-2xl text-[#636AE8]">Eiusmod comm</p>
-        <div class="flex items-center gap-2 bg-[#F2F2FD] rounded-2xl p-2">
-          <img src="./img/Wifi high.svg" alt="" class="w-6 h-6">
-          <p class="text-[18px] font-normal text-[#636AE8]">Connection</p>
+      <!--right side-->
+      <div class="relative md:h-[517px] flex items-center justify-center shrink-0 xl:mx-0 mx-auto md:w-fit w-full">
+        <div class="md:w-[488px] w-full h-full bg-[#FDF1F5] rounded-t-full relative z-40 hidden md:flex">
+          <img src="./img/girl-standing.png" alt="yoga" class="md:w-[485px] w-full md:h-[459px] absolute top-14">
         </div>
-        <div class="flex items-center gap-2 bg-[#FFF0F0] rounded-2xl p-2">
-          <img src="./img/Share network.svg" alt="share icon" class="w-6 h-6">
-          <p class="text-[18px] font-normal text-[#E8618C]">Share</p>
-        </div>
-        <div class="flex items-center gap-2 bg-[#FEF9EE] rounded-2xl p-2">
-          <img src="./img/Send.svg" alt="instantiate icon" class="w-[17px] h-[17px]">
-          <p class="text-[14px] font-normal text-[#98690C]">Instantiate</p>
+
+        <!--floating card-->
+        <div
+          class="absolute left-[-150px] top-35 bg-white rounded-2xl shadow-lg p-5 w-[235px] h-[268px] md:flex hidden flex-col gap-4">
+          <p class="font-bold text-2xl text-[#636AE8]">Eiusmod comm</p>
+          <div class="flex items-center gap-2 bg-[#F2F2FD] rounded-2xl p-2">
+            <img src="./img/Wifi high.svg" alt="" class="w-6 h-6">
+            <p class="text-[18px] font-normal text-[#636AE8]">Connection</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#FFF0F0] rounded-2xl p-2">
+            <img src="./img/Share network.svg" alt="share icon" class="w-6 h-6">
+            <p class="text-[18px] font-normal text-[#E8618C]">Share</p>
+          </div>
+          <div class="flex items-center gap-2 bg-[#FEF9EE] rounded-2xl p-2">
+            <img src="./img/Send.svg" alt="instantiate icon" class="w-[17px] h-[17px]">
+            <p class="text-[14px] font-normal text-[#98690C]">Instantiate</p>
+          </div>
         </div>
       </div>
-
     </div>
   </section>
 
   <!--features section-->
-  <section class="mt-20 md:mx-30 mx-10 relative">
-    <div class="flex flex-col items-center text-center mb-12">
-      <p class="font-normal text-[14px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
-      <h4 class="font-bold text-[52px] text-[#323842]">Features</h4>
+  <section class="w-full mt-20">
+    <div class="max-w-[1440px] mx-auto md:px-30 px-10 relative">
+
+      <div class="flex flex-col items-center text-center mb-12">
+        <p class="font-normal text-[14px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
+        <h4 class="font-bold text-[52px] text-[#323842]">Features</h4>
+      </div>
+
+      <div class="grid lg:grid-cols-3 grid-cols-1 gap-6">
+
+        <div class="bg-[#BAF3EB] rounded-2xl p-8 pt-14 flex flex-col gap-3">
+          <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
+          <p class="font-normal text-[22px] text-[#323842] leading-6">
+            Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
+          </p>
+          <a href="#" class="font-normal text-[16px] text-[#1BA18D] underline mt-14">Try now</a>
+        </div>
+
+        <div class="lg:col-span-2 bg-[#CED0F8] rounded-2xl p-8 pt-14 flex flex-col gap-3">
+          <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
+          <p class="font-normal text-[22px] text-[#323842] leading-6 max-w-[412px]">
+            Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
+          </p>
+          <a href="#" class="font-normal text-[16px] text-[#2C35E0] underline mt-14">Try now</a>
+        </div>
+
+        <div class="lg:col-span-2 bg-[#F8DBD0] rounded-2xl p-8 pt-14 flex flex-col gap-3">
+          <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
+          <p class="font-normal text-[22px] text-[#323842] leading-6 max-w-[412px]">
+            Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
+          </p>
+          <a href="#" class="font-normal text-[16px] text-[#E1602C] underline mt-14">Try now</a>
+          <img src="./img/feature-1.png" alt="decorative icon"
+            class="w-[180px] h-[200px] self-end mt-[-200px] xl:flex hidden">
+        </div>
+
+        <div class="bg-[#FDF1F5] rounded-2xl p-8 pt-14 flex flex-col gap-3 relative overflow-hidden">
+          <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
+          <p class="font-normal text-[22px] text-[#323842] leading-6">
+            Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
+          </p>
+          <a href="#" class="font-normal text-[16px] text-[#E02862] underline mt-14">Try now</a>
+          <img src="./img/feature-2.png" alt="" class="w-[160px] h-[160px] self-end absolute bottom-[-50px] right-0">
+        </div>
+      </div>
+      <img src="./img/features-line.png" alt="" class="absolute w-[216px] h-[579px] -top-20 -right-2 md:flex hidden">
     </div>
-
-    <div class="grid lg:grid-cols-3 grid-cols-1 gap-6">
-
-      <div class="bg-[#BAF3EB] rounded-2xl p-8 pt-14 flex flex-col gap-3">
-        <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
-        <p class="font-normal text-[22px] text-[#323842] leading-6">
-          Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
-        </p>
-        <a href="#" class="font-normal text-[16px] text-[#1BA18D] underline mt-14">Try now</a>
-      </div>
-
-      <div class="lg:col-span-2 bg-[#CED0F8] rounded-2xl p-8 pt-14 flex flex-col gap-3">
-        <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
-        <p class="font-normal text-[22px] text-[#323842] leading-6 max-w-[412px]">
-          Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
-        </p>
-        <a href="#" class="font-normal text-[16px] text-[#2C35E0] underline mt-14">Try now</a>
-      </div>
-
-      <div class="lg:col-span-2 bg-[#F8DBD0] rounded-2xl p-8 pt-14 flex flex-col gap-3">
-        <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
-        <p class="font-normal text-[22px] text-[#323842] leading-6 max-w-[412px]">
-          Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
-        </p>
-        <a href="#" class="font-normal text-[16px] text-[#E1602C] underline mt-14">Try now</a>
-        <img src="./img/feature-1.png" alt="decorative icon" class="w-[180px] h-[200px] self-end mt-[-200px] xl-flex hidden">
-      </div>
-
-      <div class="bg-[#FDF1F5] rounded-2xl p-8 pt-14 flex flex-col gap-3 relative overflow-hidden">
-        <h5 class="font-bold text-[32px] text-[#323842]">Feature</h5>
-        <p class="font-normal text-[22px] text-[#323842] leading-6">
-          Labore proident nisi fugiat nostrud sint mollit aliqua ipsum ad veniam cupidatat
-        </p>
-        <a href="#" class="font-normal text-[16px] text-[#E02862] underline mt-14">Try now</a>
-        <img src="./img/feature-2.png" alt="" class="w-[160px] h-[160px] self-end absolute bottom-[-50px] right-0">
-      </div>
-    </div>
-    <img src="./img/features-line.png" alt="" class="absolute w-[216px] h-[579px] -top-20 -right-30 md:flex hidden">
   </section>
+
 </body>
 
 </html>
