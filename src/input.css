@@ -16,3 +16,7 @@
 @theme {
   --font-archivo: "Archivo", sans-serif;
 }
+
+@theme {
+  --font-poppins: "Poppins", sans-serif;
+}
