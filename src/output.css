@@ -3205,6 +3205,9 @@
   .top-0 {
     top: 0px;
   }
+  .top-4 {
+    top: calc(var(--spacing) * 4);
+  }
   .top-14 {
     top: calc(var(--spacing) * 14);
   }
@@ -3216,6 +3219,12 @@
   }
   .top-35 {
     top: calc(var(--spacing) * 35);
+  }
+  .top-40 {
+    top: calc(var(--spacing) * 40);
+  }
+  .top-42 {
+    top: calc(var(--spacing) * 42);
   }
   .top-45 {
     top: calc(var(--spacing) * 45);
@@ -3271,8 +3280,29 @@
   .right-10 {
     right: calc(var(--spacing) * 10);
   }
+  .right-15 {
+    right: calc(var(--spacing) * 15);
+  }
+  .right-40 {
+    right: calc(var(--spacing) * 40);
+  }
+  .right-43 {
+    right: calc(var(--spacing) * 43);
+  }
+  .right-44 {
+    right: calc(var(--spacing) * 44);
+  }
+  .right-45 {
+    right: calc(var(--spacing) * 45);
+  }
+  .right-50 {
+    right: calc(var(--spacing) * 50);
+  }
   .right-94 {
     right: calc(var(--spacing) * 94);
+  }
+  .right-100 {
+    right: calc(var(--spacing) * 100);
   }
   .right-120 {
     right: calc(var(--spacing) * 120);
@@ -3349,11 +3379,29 @@
   .left-\[-150px\] {
     left: -150px;
   }
+  .left-\[9px\] {
+    left: 9px;
+  }
   .left-\[64px\] {
     left: 64px;
   }
   .left-\[700px\] {
     left: 700px;
+  }
+  .left-\[850px\] {
+    left: 850px;
+  }
+  .left-\[865px\] {
+    left: 865px;
+  }
+  .left-\[870px\] {
+    left: 870px;
+  }
+  .left-\[880px\] {
+    left: 880px;
+  }
+  .left-\[900px\] {
+    left: 900px;
   }
   .left-\[950px\] {
     left: 950px;
@@ -3363,6 +3411,9 @@
   }
   .left-\[1250px\] {
     left: 1250px;
+  }
+  .left-\[px\] {
+    left: px;
   }
   @layer daisyui.l1.l2.l3 {
     .textarea {
@@ -4927,6 +4978,15 @@
   .gap-20 {
     gap: calc(var(--spacing) * 20);
   }
+  .gap-35 {
+    gap: calc(var(--spacing) * 35);
+  }
+  .gap-40 {
+    gap: calc(var(--spacing) * 40);
+  }
+  .gap-50 {
+    gap: calc(var(--spacing) * 50);
+  }
   .gap-58 {
     gap: calc(var(--spacing) * 58);
   }
@@ -6188,6 +6248,9 @@
     .max-xl\:hidden {
       display: none;
     }
+    .max-xl\:flex-col {
+      flex-direction: column;
+    }
   }
   @media (width < 64rem) {
     .max-lg\:hidden {
@@ -6262,6 +6325,9 @@
     }
   }
   @media (width >= 40rem) {
+    .sm\:w-\[300px\] {
+      width: 300px;
+    }
     .sm\:max-w-\[302px\] {
       max-width: 302px;
     }
@@ -6600,6 +6666,9 @@
     }
     .xl\:mx-0 {
       margin-inline: 0px;
+    }
+    .xl\:block {
+      display: block;
     }
     .xl\:flex {
       display: flex;
