@@ -3340,6 +3340,9 @@
   .left-86 {
     left: calc(var(--spacing) * 86);
   }
+  .left-160 {
+    left: calc(var(--spacing) * 160);
+  }
   .left-170 {
     left: calc(var(--spacing) * 170);
   }
@@ -4661,8 +4664,17 @@
   .max-w-\[412px\] {
     max-width: 412px;
   }
+  .max-w-\[573px\] {
+    max-width: 573px;
+  }
+  .max-w-\[581px\] {
+    max-width: 581px;
+  }
   .max-w-\[633px\] {
     max-width: 633px;
+  }
+  .max-w-\[793px\] {
+    max-width: 793px;
   }
   .max-w-\[1113px\] {
     max-width: 1113px;
@@ -5474,6 +5486,9 @@
   .p-8 {
     padding: calc(var(--spacing) * 8);
   }
+  .p-10 {
+    padding: calc(var(--spacing) * 10);
+  }
   .p-\[24px\] {
     padding: 24px;
   }
@@ -6131,6 +6146,16 @@
     --tw-outline-style: none;
     outline-style: none;
   }
+  @media (width < 80rem) {
+    .max-xl\:hidden {
+      display: none;
+    }
+  }
+  @media (width < 64rem) {
+    .max-lg\:hidden {
+      display: none;
+    }
+  }
   @media (width < 48rem) {
     .max-md\:hidden {
       display: none;
@@ -6538,6 +6563,12 @@
     .xl\:hidden {
       display: none;
     }
+    .xl\:w-\[573px\] {
+      width: 573px;
+    }
+    .xl\:w-\[793px\] {
+      width: 793px;
+    }
     .xl\:max-w-\[316px\] {
       max-width: 316px;
     }
@@ -6550,8 +6581,17 @@
     .xl\:flex-nowrap {
       flex-wrap: nowrap;
     }
+    .xl\:justify-between {
+      justify-content: space-between;
+    }
     .xl\:gap-\[70px\] {
       gap: 70px;
+    }
+    .xl\:px-\[132px\] {
+      padding-inline: 132px;
+    }
+    .xl\:py-20 {
+      padding-block: calc(var(--spacing) * 20);
     }
     .xl\:pr-0 {
       padding-right: 0px;
