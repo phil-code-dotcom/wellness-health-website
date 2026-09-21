@@ -2,315 +2,499 @@
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./src/output.css" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="./src/output.css" rel="stylesheet">
 </head>
 
 <body class="relative overflow-x-hidden">
-  <!--Nav and hero-->
-  <section class="w-full">
-    <nav class="max-w-[1440px] w-full mx-auto py-5 xl:pl-11 xl:pr-20.5 px-4.5 flex items-center justify-between">
-      <h3 class="font-bold text-[20px] text-[#424955]">Ayuvista</h3>
+    <!--Nav and hero-->
+    <section class="w-full">
+        <nav class="max-w-[1440px] w-full mx-auto py-5 xl:pl-11 xl:pr-20.5 px-4.5 flex items-center justify-between">
+            <h3 class="font-bold text-[20px] text-[#424955]">Ayuvista</h3>
 
-      <div class="xl:flex hidden items-center gap-13">
-        <div class="font-semibold text-[16px] text-[#424955] flex items-center gap-6">
-          <a href="./index.html"><p>Home</p></a>
-          <a href="#"><p>About us</p></a>
-          <p>Yoga</p>
-          <p>Ayurvedic</p>
-          <a href="./pricing.html"><p>Pricing</p></a>
-          <a href="./help.html"><p>Help Center</p></a>
-          <a href="./contact.html"><p>Contact us</p></a>
-          <a href="./faq.html"><p>FAQs</p></a>
-        </div>
-        <div class="flex items-center gap-4">
-          <button class="font-bold text-[18px] text-[#636AE8]">Login</button>
-          <button class="w-[147px] h-[36px] bg-[#636AE8] rounded-2xl font-bold text-[16px] text-white">Try for
-            free</button>
-        </div>
-      </div>
-      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="w-6 h-6 xl:hidden fill-[#424955]">
-        <path
-          d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
-      </svg>
-    </nav>
-
-  </section>
-
-  <!--about us section-->
-  <section class="w-full mt-20">
-    <div class="max-w-[1440px] mx-auto md:px-30 px-5 flex items-center justify-between gap-16 flex-wrap">
-
-      <!--Left side-->
-      <div class="flex flex-col gap-0 xl:max-w-[472px] max-w-full">
-        <p class="font-normal text-[14px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
-        <div>
-          <h4 class="font-bold text-[52px] text-[#323842]">About us</h4>
-          <img src="./img/about-us-line.svg" alt="" class="w-[247px] h-[24px]">
-        </div>
-        <p class="font-normal text-[16px] text-[#323842] leading-7 mt-5">
-          Pranovista is a holistic wellness company dedicated to promoting a balanced and healthy lifestyle
-          through the ancient practices of yoga and Ayurveda. With a deep-rooted commitment to well-being,
-          Pranovista offers personalized wellness solutions that blend traditional wisdom with modern needs.
-          Our expert-guided programs focus on enhancing physical, mental, and spiritual harmony, empowering
-          individuals to achieve optimal health naturally
-        </p>
-        <button
-          class="w-[242px] h-[52px] border border-[#636AE8] rounded-3xl font-bold text-[18px] text-[#636AE8] mt-5">
-          Learn more
-        </button>
-      </div>
-
-      <!--right side-->
-      <div class="relative md:h-[517px] flex items-center justify-center shrink-0 xl:mx-0 mx-auto md:w-fit w-full">
-        <div class="md:w-[488px] w-full h-full bg-[#FDF1F5] rounded-t-full relative z-0 hidden md:flex">
-          <img src="./img/girl-standing.png" alt="yoga" class="md:w-[485px] w-full md:h-[459px] absolute top-14">
-        </div>
-
-        <!--floating card-->
-        <div
-          class="absolute left-[-150px] top-35 bg-white rounded-2xl shadow-lg p-5 w-[235px] h-[268px] md:flex hidden flex-col gap-4">
-          <p class="font-bold text-2xl text-[#636AE8]">Eiusmod comm</p>
-          <div class="flex items-center gap-2 bg-[#F2F2FD] rounded-2xl p-2">
-            <img src="./img/Wifi high.svg" alt="" class="w-6 h-6">
-            <p class="text-[18px] font-normal text-[#636AE8]">Connection</p>
-          </div>
-          <div class="flex items-center gap-2 bg-[#FFF0F0] rounded-2xl p-2">
-            <img src="./img/Share network.svg" alt="share icon" class="w-6 h-6">
-            <p class="text-[18px] font-normal text-[#E8618C]">Share</p>
-          </div>
-          <div class="flex items-center gap-2 bg-[#FEF9EE] rounded-2xl p-2">
-            <img src="./img/Send.svg" alt="instantiate icon" class="w-[17px] h-[17px]">
-            <p class="text-[14px] font-normal text-[#98690C]">Instantiate</p>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  
-
-  
-
-  <!--getting started section-->
-  <section class="w-full mt-20">
-    <div class="max-w-[1440px] mx-auto md:px-30 px-5">
-      <div class="w-full border-2 border-[#171A1F] rounded-2xl flex flex-col gap-6 items-center py-10 relative">
-        <h5 class="font-archivo font-bold text-[48px] text-[#171A1F] text-center">Getting started</h5>
-        <button type="button"
-          class="text-white bg-[#6CB174] box-border border border-transparent hover:bg-success-strong focus:ring-4 focus:ring-success-medium shadow-xs font-bold font-inter text-[18px] leading-5 rounded-full text-sm px-4 py-2.5 focus:outline-none w-[242px] h-[52px]">Sign
-          Up</button>
-        <img src="./img/pink-arr.png" class="hidden xl:flex absolute right-94 top-29" alt="">
-      </div>
-    </div>
-  </section>
-
-  <!-- <section class="w-full mt-20">
-    <div class="max-w-[1440px] mx-auto md:px-30 px-5">
-
-    </div>
-  </section> -->
-
-  <!--get in touch section-->
-  <section
-    class="w-full  bg-[#1D2128]">
-    <div class="w-full md:max-w-[px] h-fit md:min-h-[522px] lg:pb-0 pb-[40px] md:px-[132px] px-[20px] md:pt-[56px] pt-[20px] mt-[100px] md:flex justify-between flex-wrap lg:flex-nowrap gap-10 max-w-[1440px] mx-auto">
-      <div>
-        <p
-          class="w-fit min-w-[52px] h-fit min-h-[24px] rounded-[6px] text-[48px] text-[#FFFFFF] font-bold leading-[74px] font-archivo">
-          Get In Touch</p>
-        <div class="md:mt-[200px] mt-[20px] flex gap-[40px]">
-          <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-            <path
-              d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
-          </svg>
-          <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path
-              d="M92.7 58.8l78.4 78.4c18.2-25 28.9-55.9 28.9-89.2 0-14.1-1.9-27.7-5.5-40.6-38 9.4-72.6 27.2-101.8 51.4zM58.8 92.7c-24.2 29.2-42 63.8-51.4 101.8 12.9 3.6 26.5 5.5 40.6 5.5 33.3 0 64.1-10.7 89.2-28.9L58.8 92.7zM256 0c-4.6 0-9.2 .1-13.7 .4 3.7 15.3 5.7 31.2 5.7 47.6 0 46.6-15.9 89.4-42.6 123.4L256 222.1 419.3 58.8C374.9 22.1 318.1 0 256 0zM48 248c-16.4 0-32.4-2-47.6-5.7-.2 4.5-.4 9.1-.4 13.7 0 62.1 22.1 118.9 58.8 163.3L222.1 256 171.4 205.4C137.4 232.1 94.6 248 48 248zm463.6 21.7c.2-4.5 .4-9.1 .4-13.7 0-62.1-22.1-118.9-58.8-163.3L289.9 256 340.6 306.6c34-26.7 76.9-42.6 123.4-42.6 16.4 0 32.4 2 47.6 5.7zm-7.1 47.8c-12.9-3.6-26.5-5.5-40.6-5.5-33.3 0-64.1 10.7-89.2 28.9l78.4 78.4c24.2-29.2 42-63.8 51.4-101.8zM340.9 374.8c-18.2 25-28.9 55.9-28.9 89.2 0 14.1 1.9 27.7 5.5 40.6 38-9.4 72.6-27.2 101.8-51.4l-78.4-78.4zm-34.3-34.3L256 289.9 92.7 453.2c44.3 36.7 101.2 58.8 163.3 58.8 4.6 0 9.2-.1 13.7-.4-3.7-15.3-5.7-31.2-5.7-47.6 0-46.6 15.9-89.4 42.6-123.4z" />
-          </svg>
-          <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-            <path
-              d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z" />
-          </svg>
-          <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-            <path
-              d="M61.4 64C27.5 64 0 91.5 0 125.4 0 126.3 0 127.1 .1 128L0 128 0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256-.1 0c0-.9 .1-1.7 .1-2.6 0-33.9-27.5-61.4-61.4-61.4L61.4 64zM464 192.3L464 384c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-191.7 154.8 117.4c31.4 23.9 74.9 23.9 106.4 0L464 192.3zM48 125.4C48 118 54 112 61.4 112l389.2 0c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7z" />
-          </svg>
-        </div>
-        <div class="flex gap-[10px] mt-[10px] items-center">
-          <p
-            class="w-fit min-w-[126px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
-            © 2022 Brand, Inc. <span class="absolute text-[30px] mt-[-6px] ml-[5px]">.</span></p>
-          <p
-            class="w-fit min-w-[49px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
-            Privacy <span class="absolute text-[30px] mt-[-6px] ml-[5px]">.</span></p>
-          <p
-            class="w-fit min-w-[41px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
-            Terms<span class="absolute text-[30px] mt-[-6px] ml-[5px]">.</span></p>
-          <p
-            class="w-fit min-w-[54px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
-            Sitemap</p>
-        </div>
-      </div>
-
-      <div class="md:mt-0 mt-[70px]">
-        <div class="text-[#ffffff] font-bold font-inter">
-          <label class="absolute w-[52px] mt-[-20px] pt-2 ml-[7px] bg-[#1D2128] text-[18px]" for="name">Name</label>
-          <input
-            class="w-full md:w-fit xl:min-w-[587px] md:min-w-[336px] h-fit min-h-[59px] border-[1px] border-[#DEE1E6] rounded-[6px] pl-[20px] font-normal bg-[#1D2128] placeholder:text-[#BCC1CA]"
-            type="text" placeholder="Enter your Name">
-        </div>
-        <div class="text-[#ffffff] font-bold font-inter mt-[30px]">
-          <label class="absolute w-[60px] mt-[-20px] pt-2 ml-[7px] bg-[#1D2128] text-[18px]" for="name">Email</label>
-          <input
-            class="w-full md:w-fit xl:min-w-[587px] md:min-w-[336px]  h-fit min-h-[59px] border-[1px] border-[#DEE1E6] rounded-[6px] pl-[20px] font-normal bg-[#1D2128] placeholder:text-[#BCC1CA]"
-            type="email" placeholder="Enter your Email">
-        </div>
-        <div class="text-[#ffffff] font-bold font-inter mt-[30px]">
-          <label class="absolute w-[180px] mt-[-20px] pt-2 ml-[7px] text-[18px]" for="name">How can we help?</label>
-          <textarea
-            class="w-full md:w-fit xl:min-w-[587px] md:min-w-[336px] h-fit min-h-[147px] border-[1px] border-[#DEE1E6] rounded-[6px] pl-[20px] pt-[15px] font-normal bg-[#1D2128] placeholder:text-[#BCC1CA] text-white resize-none"
-            placeholder="Enter your message here"></textarea>
-        </div>
-        <button
-          class="min-w-[173px] h-fit min-h-[52px] bg-[#636AE8] text-[#FFFFFF] rounded-[6px] leading-[28px] text-[18px] font-poppins mt-[30px] font-semibold">Submit</button>
-      </div>
-    </div>
-  </section>
-
-  <!-- <section class="w-full mt-20">
-    <div class="max-w-[1440px] mx-auto md:px-30 px-5">
-
-    </div>
-  </section> -->
-
-  <footer
-    class="w-full md:max-w-[px] h-fit min-h-[434px] md:px-[132px] px-[20px] md:pt-[102px] pt-[50px] bg-[#ffffff] mt-[px] md:flex justify-between max-w-[1440px] mx-auto gap-5 flex-wrap lg:flex-nowrap">
-    <div class="flex xl:gap-[70px] gap-[10px]">
-      <div>
-        <p
-          class="w-fit min-w-[63px] h-fit min-h-[30px] text-[20px] font-bold leading-[40px] font-poppins text-[#000000]">
-          About</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Home</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Shop</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Our story</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Blogs</p>
-      </div>
-
-      <div class="ml-[15px]">
-        <p
-          class="w-fit min-w-[63px] h-fit min-h-[30px] text-[20px] font-bold leading-[40px] font-poppins text-[#000000]">
-          Help</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Shipping & Returns</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Track Order</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          FAQs</p>
-      </div>
-
-      <div>
-        <p
-          class="w-fit min-w-[63px] h-fit min-h-[30px] text-[20px] font-bold leading-[40px] font-poppins text-[#000000]">
-          Contact</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Phone:</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-bold leading-[40px] font-poppins text-[#000000]">
-          (+1) 123 456 7893</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
-          Email:</p>
-        <p
-          class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-bold leading-[40px] font-poppins text-[#000000]">
-          name@email.com</p>
-      </div>
-    </div>
-
-    <div>
-      <p
-        class="w-fit md:min-w-[303px] h-fit min-h-[36px] md:text-[26px] text-[24px] font-bold leading-[36px] font-poppins text-[#000000] md:mt-0 mt-[20px]">
-        Receive new promotions</p>
-      <p
-        class="w-fit md:min-w-[357px] h-fit min-h-[26px] md:text-[18px] text-[14px] font-normal leading-[26px] font-poppins text-[#000000] mt-[10px]">
-        Duis ea tempor commodo amet reprehende</p>
-
-      <div class="flex items-center mt-[20px]">
-        <div class="w-fit md:min-w-[303px] h-fit min-h-[53px] rounded-l-[16px] border-[1px] border-[#000000] pl-[20px]">
-          <span class="flex gap-[8px]">
-            <svg class="w-[18.86px] h-[15.43] mt-[10px]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-              <path
-                d="M61.4 64C27.5 64 0 91.5 0 125.4 0 126.3 0 127.1 .1 128L0 128 0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256-.1 0c0-.9 .1-1.7 .1-2.6 0-33.9-27.5-61.4-61.4-61.4L61.4 64zM464 192.3L464 384c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-191.7 154.8 117.4c31.4 23.9 74.9 23.9 106.4 0L464 192.3zM48 125.4C48 118 54 112 61.4 112l389.2 0c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7z" />
+            <div class="xl:flex hidden items-center gap-13">
+                <div class="font-semibold text-[16px] text-[#424955] flex items-center gap-6">
+                    <a href="./index.html">
+                        <p>Home</p>
+                    </a>
+                    <a href="#">
+                        <p>About us</p>
+                    </a>
+                    <p>Yoga</p>
+                    <p>Ayurvedic</p>
+                    <a href="./pricing.html">
+                        <p>Pricing</p>
+                    </a>
+                    <a href="./help.html">
+                        <p>Help Center</p>
+                    </a>
+                    <a href="./contact.html">
+                        <p>Contact us</p>
+                    </a>
+                    <a href="./faq.html">
+                        <p>FAQs</p>
+                    </a>
+                </div>
+                <div class="flex items-center gap-4">
+                    <button class="font-bold text-[18px] text-[#636AE8]">Login</button>
+                    <button class="w-[147px] h-[36px] bg-[#636AE8] rounded-2xl font-bold text-[16px] text-white">Try for
+                        free</button>
+                </div>
+            </div>
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 640" class="w-6 h-6 xl:hidden fill-[#424955]">
+                <path
+                    d="M96 160C96 142.3 110.3 128 128 128L512 128C529.7 128 544 142.3 544 160C544 177.7 529.7 192 512 192L128 192C110.3 192 96 177.7 96 160zM96 320C96 302.3 110.3 288 128 288L512 288C529.7 288 544 302.3 544 320C544 337.7 529.7 352 512 352L128 352C110.3 352 96 337.7 96 320zM544 480C544 497.7 529.7 512 512 512L128 512C110.3 512 96 497.7 96 480C96 462.3 110.3 448 128 448L512 448C529.7 448 544 462.3 544 480z" />
             </svg>
-            <p
-              class="w-fit min-w-[136px] h-fit min-h-[28px] md:text-[18px] text-[14px] font-normal leading-[28px] font-poppins text-[#000000] mt-[10px]">
-              Input your email</p>
-          </span>
-        </div>
-        <div class="w-fit md:min-w-[126px] h-fit min-h-[52px] rounded-r-[16px] bg-[#636AE8] ">
-          <p
-            class="w-fit min-w-[86px] h-fit min-h-[28px] md:text-[18px] text-[14px] font-normal leading-[28px] font-poppins text-[#000000] mt-[px] text-[#ffffff] mt-[10px] ml-[19px]">
-            Subscribe</p>
-        </div>
-      </div>
-      <div class="flex gap-[10px] mt-[30px]">
-        <svg class="w-[24px] h-[24px] fill-[#2EBAE8]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path
-            d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103l0-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
-        </svg>
-        <svg class="w-[24px] h-[24px] fill-[#2E6FE8]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
-          <path
-            d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5l0-170.3-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 175.9C413.8 494.8 512 386.9 512 256z" />
-        </svg>
-        <svg class="w-[24px] h-[24px] fill-[#7797E4]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
-          <path
-            d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z" />
-        </svg>
-        <svg class="w-[24px] h-[24px] fill-[#E82E2E]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
-          <path
-            d="M549.7 124.1C543.5 100.4 524.9 81.8 501.4 75.5 458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5C51.2 81.8 32.7 100.4 26.4 124.1 15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8 42.6 11.5 213.4 11.5 213.4 11.5s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6l0-162.4 142.7 81.2-142.7 81.2z" />
-        </svg>
-      </div>
+        </nav>
 
-      <div class="flex gap-[20px] mt-[30px] flex-wrap">
-        <p
-          class="w-fit min-w-[126px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
-          © 2022 Brand, Inc. <span class="absolute text-[30px] mt-[-10px] ml-[5px]">.</span></p>
-        <p
-          class="w-fit min-w-[49px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
-          Privacy<span class="absolute text-[30px] mt-[-10px] ml-[5px]">.</span></p>
-        <p
-          class="w-fit min-w-[41px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
-          Terms<span class="absolute text-[30px] mt-[-10px] ml-[5px]">.</span></p>
-        <p
-          class="w-fit min-w-[54px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
-          Sitemap</p>
-      </div>
+    </section>
+
+    <!--about us section-->
+    <section class="w-full mt-20">
+        <div class="max-w-[1440px] mx-auto md:px-30 px-5 flex items-center justify-between gap-16 flex-wrap">
+
+            <!--Left side-->
+            <div class="flex flex-col gap-0 xl:max-w-[472px] max-w-full">
+                <p class="font-normal text-[14px] text-[#323842]">Dolore dolore voluptate aliqua ut mi</p>
+                <div>
+                    <h4 class="font-bold text-[52px] text-[#323842]">About us</h4>
+                    <img src="./img/about-us-line.svg" alt="" class="w-[247px] h-[24px]">
+                </div>
+                <p class="font-normal text-[16px] text-[#323842] leading-7 mt-5">
+                    Pranovista is a holistic wellness company dedicated to promoting a balanced and healthy lifestyle
+                    through the ancient practices of yoga and Ayurveda. With a deep-rooted commitment to well-being,
+                    Pranovista offers personalized wellness solutions that blend traditional wisdom with modern needs.
+                    Our expert-guided programs focus on enhancing physical, mental, and spiritual harmony, empowering
+                    individuals to achieve optimal health naturally
+                </p>
+                <button
+                    class="w-[242px] h-[52px] border border-[#636AE8] rounded-3xl font-bold text-[18px] text-[#636AE8] mt-5">
+                    Learn more
+                </button>
+            </div>
+
+            <!--right side-->
+            <div
+                class="relative md:h-[517px] flex items-center justify-center shrink-0 xl:mx-0 mx-auto md:w-fit w-full">
+                <div class="md:w-[488px] w-full h-full bg-[#FDF1F5] rounded-t-full relative z-0 hidden md:flex">
+                    <img src="./img/girl-standing.png" alt="yoga"
+                        class="md:w-[485px] w-full md:h-[459px] absolute top-14">
+                </div>
+
+                <!--floating card-->
+                <div
+                    class="absolute left-[-150px] top-35 bg-white rounded-2xl shadow-lg p-5 w-[235px] h-[268px] md:flex hidden flex-col gap-4">
+                    <p class="font-bold text-2xl text-[#636AE8]">Eiusmod comm</p>
+                    <div class="flex items-center gap-2 bg-[#F2F2FD] rounded-2xl p-2">
+                        <img src="./img/Wifi high.svg" alt="" class="w-6 h-6">
+                        <p class="text-[18px] font-normal text-[#636AE8]">Connection</p>
+                    </div>
+                    <div class="flex items-center gap-2 bg-[#FFF0F0] rounded-2xl p-2">
+                        <img src="./img/Share network.svg" alt="share icon" class="w-6 h-6">
+                        <p class="text-[18px] font-normal text-[#E8618C]">Share</p>
+                    </div>
+                    <div class="flex items-center gap-2 bg-[#FEF9EE] rounded-2xl p-2">
+                        <img src="./img/Send.svg" alt="instantiate icon" class="w-[17px] h-[17px]">
+                        <p class="text-[14px] font-normal text-[#98690C]">Instantiate</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="max-w-7xl mx-auto px-6 py-20">
+        <div class="bg-[#CED0F8] p-8 rounded-3xl bg-[#CED0F8] flex flex-col gap-10 md:gap-40">
+            <div class="flex flex-col md:flex-row gap-10 md:gap-50 ">
+                <h1 class="md:w-[426px] leading-[48px] text-[#323842] font-bold font-archivo text-3xl">Our founder's
+                    story in creating best product</h1>
+                <p class="md:w-[648px] font-inter text-xl text-[#323842] font-medium leading-[30px]">Voluptate magna
+                    nulla nulla duis voluptate elit dolore commodo reprehenderit est culpa est veniam fugiat cillum. Non
+                    minim eu et enim fugiat ipsum </p>
+            </div>
+            <div class="flex flex-col md:flex-row gap-4 md:gap-0 items-center relative">
+                <div class="hidden md:flex self-end absolute md:right-34 bottom-88 lg:bottom-74">
+                    <a href="#">
+                        <div
+                            class="w-[144px] h-[52px] inline-flex items-center gap-2 bg-[#E8618C] text-white px-5 py-3 rounded-t-[18px] rounded-br-[18px] rounded-bl-none font-medium">
+                            <svg width="24" height="24" viewBox="0 0 24 24" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M6.86 21.43C7.33496 21.43 7.72 21.0449 7.72 20.57C7.72 20.095 7.33496 19.71 6.86 19.71C6.38504 19.71 6 20.095 6 20.57C6 21.0449 6.38504 21.43 6.86 21.43Z"
+                                    fill="white" />
+                                <path
+                                    d="M18.86 21.43C19.335 21.43 19.72 21.0449 19.72 20.57C19.72 20.095 19.335 19.71 18.86 19.71C18.385 19.71 18 20.095 18 20.57C18 21.0449 18.385 21.43 18.86 21.43Z"
+                                    fill="white" />
+                                <path
+                                    d="M6.86 21.43C7.33496 21.43 7.72 21.0449 7.72 20.57C7.72 20.095 7.33496 19.71 6.86 19.71C6.38504 19.71 6 20.095 6 20.57C6 21.0449 6.38504 21.43 6.86 21.43Z"
+                                    stroke="white" stroke-width="2.064" stroke-miterlimit="10"
+                                    stroke-linecap="square" />
+                                <path
+                                    d="M18.86 21.43C19.335 21.43 19.72 21.0449 19.72 20.57C19.72 20.095 19.335 19.71 18.86 19.71C18.385 19.71 18 20.095 18 20.57C18 21.0449 18.385 21.43 18.86 21.43Z"
+                                    stroke="white" stroke-width="2.064" stroke-miterlimit="10"
+                                    stroke-linecap="square" />
+                                <path
+                                    d="M5.80706 7.71016L20.5991 7.71016L19.156 14.9273C18.9952 15.7314 18.2891 16.3102 17.4695 16.3102L8.34492 16.3102C7.4832 16.3102 6.75392 15.672 6.6404 14.8172L5.11906 3.41016L2.53906 3.41016"
+                                    stroke="white" stroke-width="2.064" stroke-miterlimit="10" stroke-linecap="round" />
+                            </svg>
+                            <span>+56.000</span>
+                        </div>
+                    </a>
+                </div>
+                <div
+                    class=" bg-stone-100 p-6 rounded-t-3xl rounded-br-3xl rounded-bl-none shadow-sm max-w-md md:mb-20 z-40 md:ml-8">
+                    <div class="flex items-start justify-between mb-2 md:w-[299px] md:h-[32px]">
+                        <span class="text-[#9095A0] font-medium text-lg">Data label</span>
+                        <div class="bg-[#636AE8] text-white p-3 rounded-xl flex items-center justify-center">
+                            <svg class="w-6 h-6 fill-current" viewBox="0 0 24 24">
+                                <path
+                                    d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8zm-2.5-9c.83 0 1.5-.67 1.5-1.5S10.33 8 9.5 8 8 8.67 8 9.5s.67 1.5 1.5 1.5zm5 0c.83 0 1.5-.67 1.5-1.5S15.33 8 14.5 8 13 8.67 13 9.5s.67 1.5 1.5 1.5zm-2.5 6.5c2.33 0 4.31-1.46 5.11-3.5H6.89c.8 2.04 2.78 3.5 5.11 3.5z" />
+                            </svg>
+                        </div>
+                    </div>
+                    <div class="text-[#EA916E] text-5xl font-bold tracking-tight mb-4">
+                        23,000
+                    </div>
+                    <div class="flex items-center gap-2 text-slate-600 font-medium">
+                        <span class="text-[#14923E] font-semibold flex items-center gap-1">
+                            ▲ 5.39%
+                        </span>
+                        <span class="text-[#9095A0]">period of change</span>
+                    </div>
+                </div>
+                <img class="hidden md:block absolute -bottom-8 xl:left-86" src="./img/about-people.png"
+                    class="w-[634px] h-[404px]" alt="">
+                <div class="hidden lg:flex absolute left-[700px] xl:left-[956px] md:top-10 w-[125px] h-[52px]">
+                    <a href="#">
+                        <div
+                            class="inline-flex items-center gap-2 h-[60px] bg-[#636AE8] text-white px-5 py-3 rounded-t-3xl rounded-br-3xl rounded-bl-none font-medium">
+                            <svg width="20" height="20" viewBox="0 0 20 20" fill="none"
+                                xmlns="http://www.w3.org/2000/svg">
+                                <path
+                                    d="M19.2007 9.59869C19.1999 4.49198 15.2013 0.279691 10.1015 0.0132787C5.00173 -0.253134 0.585979 3.51958 0.0530808 8.59842C-0.479818 13.6773 3.05667 18.2844 8.10067 19.0823L8.10067 12.3737H5.66347L5.66347 9.59869H8.10067L8.10067 7.48369C8.10067 5.07769 9.53407 3.74869 11.7265 3.74869C12.4465 3.75868 13.1648 3.82125 13.8757 3.93589L13.8757 6.29869L12.6649 6.29869C12.2469 6.24319 11.8264 6.38077 11.5221 6.67259C11.2178 6.96441 11.0627 7.37879 11.1007 7.79869L11.1007 9.59869L13.7635 9.59869L13.3375 12.3737L11.1007 12.3737L11.1007 19.0823C15.7661 18.3443 19.2014 14.3221 19.2007 9.59869Z"
+                                    fill="white" />
+                            </svg>
+                            <span>+123K</span>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="w-full mt-20">
+        <div class="max-w-[1440px] mx-auto md:px-30 px-5 flex items-center justify-between gap-16 flex-wrap"> -->
+
+    <!--our history section-->
+    <div class="max-w-7xl mx-auto w-full">
+        <section class="relative px-10 py-16">
+            <svg class="absolute top-0 right-0" width="215" height="571" viewBox="0 0 215 583" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M203.598 1.53003C134.407 3.40003 -2.85055 23.307 1.63745 87.975C7.24744 168.81 57.4821 190.23 76.6071 215.985C95.7321 241.74 168.662 321.3 178.862 376.38C189.062 431.46 182.432 456.195 184.982 497.76C187.532 539.325 202.322 559.725 217.877 580.635"
+                    stroke="#22CCB2" stroke-opacity="0.7" stroke-width="3.06" stroke-linecap="round"
+                    stroke-dasharray="12.24 12.24" />
+            </svg>
+            <div class="text-center mb-12">
+                <p class="text-sm text-[#323842] font-inter font-normal">Dolore dolore voluptate aliqua ut mi</p>
+                <h2 class="mt-2 text-4xl font-bold text-[#323842] font-archivo">Our History</h2>
+            </div>
+
+            <div class="flex flex-col md:flex-row gap-10">
+                <div class="flex flex-col justify-between gap-10 md:gap-0">
+                    <div>
+                        <h1 class="text-[#878CED] font-archivo font-bold text-4xl leading-[56px]">2018</h1>
+                        <p class="font-inter font-medium text-2xl text-[#323842] leading-[35px] md:w-[600px]">Ut non
+                            dolor
+                            anim cupidatat sunt pariatur labore ex excepteur labore laborum sit Lorem. Dolor non
+                            proident
+                            amet in exercitation aute anim reprehende</p>
+                    </div>
+                    <div>
+                        <h1 class="text-[#878CED] font-archivo font-bold text-4xl leading-[56px]">2022</h1>
+                        <p class="font-inter font-medium text-2xl text-[#323842] leading-[35px] md:w-[600px]">Ut non
+                            dolor
+                            anim cupidatat sunt pariatur labore ex excepteur labore laborum sit Lorem. Dolor non
+                            proident
+                            amet in exercitation aute anim reprehende</p>
+                    </div>
+                </div>
+                <div class="hidden md:block md:flex flex-col items-center justify-center">
+                    <div class="bg-[#CED0F8] md:w-[32px] md:h-[32px] rounded-full flex items-center justify-center">
+                        <div class="bg-[#878CED] md:w-[14px] md:h-[14px] rounded-full"></div>
+                    </div>
+                    <svg width="6" height="172" viewBox="0 0 6 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.88672 172L5.77347 167H-3.26633e-05L2.88672 172ZM2.88672 0H2.38672V2.52941H2.88672H3.38672V0H2.88672ZM2.88672 7.58824H2.38672V12.6471H2.88672H3.38672V7.58824H2.88672ZM2.88672 17.7059H2.38672V22.7647H2.88672H3.38672V17.7059H2.88672ZM2.88672 27.8235H2.38672V32.8824H2.88672H3.38672V27.8235H2.88672ZM2.88672 37.9412H2.38672V43H2.88672H3.38672V37.9412H2.88672ZM2.88672 48.0588H2.38672V53.1176H2.88672H3.38672V48.0588H2.88672ZM2.88672 58.1765H2.38672V63.2353H2.88672H3.38672V58.1765H2.88672ZM2.88672 68.2941H2.38672V73.3529H2.88672H3.38672V68.2941H2.88672ZM2.88672 78.4118H2.38672V83.4706H2.88672H3.38672V78.4118H2.88672ZM2.88672 88.5294H2.38672V93.5882H2.88672H3.38672V88.5294H2.88672ZM2.88672 98.647H2.38672V103.706H2.88672H3.38672V98.647H2.88672ZM2.88672 108.765H2.38672V113.824H2.88672H3.38672V108.765H2.88672ZM2.88672 118.882H2.38672V123.941H2.88672H3.38672V118.882H2.88672ZM2.88672 129H2.38672V134.059H2.88672H3.38672V129H2.88672ZM2.88672 139.118H2.38672V144.176H2.88672H3.38672V139.118H2.88672ZM2.88672 149.235H2.38672V154.294H2.88672H3.38672V149.235H2.88672ZM2.88672 159.353H2.38672V164.412H2.88672H3.38672V159.353H2.88672ZM2.88672 172L5.77347 167H-3.26633e-05L2.88672 172ZM2.88672 0H2.38672V2.52941H2.88672H3.38672V0H2.88672ZM2.88672 7.58824H2.38672V12.6471H2.88672H3.38672V7.58824H2.88672ZM2.88672 17.7059H2.38672V22.7647H2.88672H3.38672V17.7059H2.88672ZM2.88672 27.8235H2.38672V32.8824H2.88672H3.38672V27.8235H2.88672ZM2.88672 37.9412H2.38672V43H2.88672H3.38672V37.9412H2.88672ZM2.88672 48.0588H2.38672V53.1176H2.88672H3.38672V48.0588H2.88672ZM2.88672 58.1765H2.38672V63.2353H2.88672H3.38672V58.1765H2.88672ZM2.88672 68.2941H2.38672V73.3529H2.88672H3.38672V68.2941H2.88672ZM2.88672 78.4118H2.38672V83.4706H2.88672H3.38672V78.4118H2.88672ZM2.88672 88.5294H2.38672V93.5882H2.88672H3.38672V88.5294H2.88672ZM2.88672 98.647H2.38672V103.706H2.88672H3.38672V98.647H2.88672ZM2.88672 108.765H2.38672V113.824H2.88672H3.38672V108.765H2.88672ZM2.88672 118.882H2.38672V123.941H2.88672H3.38672V118.882H2.88672ZM2.88672 129H2.38672V134.059H2.88672H3.38672V129H2.88672ZM2.88672 139.118H2.38672V144.176H2.88672H3.38672V139.118H2.88672ZM2.88672 149.235H2.38672V154.294H2.88672H3.38672V149.235H2.88672ZM2.88672 159.353H2.38672V164.412H2.88672H3.38672V159.353H2.88672Z"
+                            fill="#BCC1CA" />
+                    </svg>
+                    <div class="bg-[#CED0F8] md:w-[32px] md:h-[32px] rounded-full flex items-center justify-center">
+                        <div class="bg-[#878CED] md:w-[14px] md:h-[14px] rounded-full"></div>
+                    </div>
+                    <svg width="6" height="172" viewBox="0 0 6 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.88672 172L5.77347 167H-3.26633e-05L2.88672 172ZM2.88672 0H2.38672V2.52941H2.88672H3.38672V0H2.88672ZM2.88672 7.58824H2.38672V12.6471H2.88672H3.38672V7.58824H2.88672ZM2.88672 17.7059H2.38672V22.7647H2.88672H3.38672V17.7059H2.88672ZM2.88672 27.8235H2.38672V32.8824H2.88672H3.38672V27.8235H2.88672ZM2.88672 37.9412H2.38672V43H2.88672H3.38672V37.9412H2.88672ZM2.88672 48.0588H2.38672V53.1176H2.88672H3.38672V48.0588H2.88672ZM2.88672 58.1765H2.38672V63.2353H2.88672H3.38672V58.1765H2.88672ZM2.88672 68.2941H2.38672V73.3529H2.88672H3.38672V68.2941H2.88672ZM2.88672 78.4118H2.38672V83.4706H2.88672H3.38672V78.4118H2.88672ZM2.88672 88.5294H2.38672V93.5882H2.88672H3.38672V88.5294H2.88672ZM2.88672 98.647H2.38672V103.706H2.88672H3.38672V98.647H2.88672ZM2.88672 108.765H2.38672V113.824H2.88672H3.38672V108.765H2.88672ZM2.88672 118.882H2.38672V123.941H2.88672H3.38672V118.882H2.88672ZM2.88672 129H2.38672V134.059H2.88672H3.38672V129H2.88672ZM2.88672 139.118H2.38672V144.176H2.88672H3.38672V139.118H2.88672ZM2.88672 149.235H2.38672V154.294H2.88672H3.38672V149.235H2.88672ZM2.88672 159.353H2.38672V164.412H2.88672H3.38672V159.353H2.88672ZM2.88672 172L5.77347 167H-3.26633e-05L2.88672 172ZM2.88672 0H2.38672V2.52941H2.88672H3.38672V0H2.88672ZM2.88672 7.58824H2.38672V12.6471H2.88672H3.38672V7.58824H2.88672ZM2.88672 17.7059H2.38672V22.7647H2.88672H3.38672V17.7059H2.88672ZM2.88672 27.8235H2.38672V32.8824H2.88672H3.38672V27.8235H2.88672ZM2.88672 37.9412H2.38672V43H2.88672H3.38672V37.9412H2.88672ZM2.88672 48.0588H2.38672V53.1176H2.88672H3.38672V48.0588H2.88672ZM2.88672 58.1765H2.38672V63.2353H2.88672H3.38672V58.1765H2.88672ZM2.88672 68.2941H2.38672V73.3529H2.88672H3.38672V68.2941H2.88672ZM2.88672 78.4118H2.38672V83.4706H2.88672H3.38672V78.4118H2.88672ZM2.88672 88.5294H2.38672V93.5882H2.88672H3.38672V88.5294H2.88672ZM2.88672 98.647H2.38672V103.706H2.88672H3.38672V98.647H2.88672ZM2.88672 108.765H2.38672V113.824H2.88672H3.38672V108.765H2.88672ZM2.88672 118.882H2.38672V123.941H2.88672H3.38672V118.882H2.88672ZM2.88672 129H2.38672V134.059H2.88672H3.38672V129H2.88672ZM2.88672 139.118H2.38672V144.176H2.88672H3.38672V139.118H2.88672ZM2.88672 149.235H2.38672V154.294H2.88672H3.38672V149.235H2.88672ZM2.88672 159.353H2.38672V164.412H2.88672H3.38672V159.353H2.88672Z"
+                            fill="#BCC1CA" />
+                    </svg>
+                    <div class="bg-[#CED0F8] md:w-[32px] md:h-[32px] rounded-full flex items-center justify-center">
+                        <div class="bg-[#878CED] md:w-[14px] md:h-[14px] rounded-full"></div>
+                    </div>
+                    <svg width="6" height="172" viewBox="0 0 6 172" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M2.88672 172L5.77347 167H-3.26633e-05L2.88672 172ZM2.88672 0H2.38672V2.52941H2.88672H3.38672V0H2.88672ZM2.88672 7.58824H2.38672V12.6471H2.88672H3.38672V7.58824H2.88672ZM2.88672 17.7059H2.38672V22.7647H2.88672H3.38672V17.7059H2.88672ZM2.88672 27.8235H2.38672V32.8824H2.88672H3.38672V27.8235H2.88672ZM2.88672 37.9412H2.38672V43H2.88672H3.38672V37.9412H2.88672ZM2.88672 48.0588H2.38672V53.1176H2.88672H3.38672V48.0588H2.88672ZM2.88672 58.1765H2.38672V63.2353H2.88672H3.38672V58.1765H2.88672ZM2.88672 68.2941H2.38672V73.3529H2.88672H3.38672V68.2941H2.88672ZM2.88672 78.4118H2.38672V83.4706H2.88672H3.38672V78.4118H2.88672ZM2.88672 88.5294H2.38672V93.5882H2.88672H3.38672V88.5294H2.88672ZM2.88672 98.647H2.38672V103.706H2.88672H3.38672V98.647H2.88672ZM2.88672 108.765H2.38672V113.824H2.88672H3.38672V108.765H2.88672ZM2.88672 118.882H2.38672V123.941H2.88672H3.38672V118.882H2.88672ZM2.88672 129H2.38672V134.059H2.88672H3.38672V129H2.88672ZM2.88672 139.118H2.38672V144.176H2.88672H3.38672V139.118H2.88672ZM2.88672 149.235H2.38672V154.294H2.88672H3.38672V149.235H2.88672ZM2.88672 159.353H2.38672V164.412H2.88672H3.38672V159.353H2.88672ZM2.88672 172L5.77347 167H-3.26633e-05L2.88672 172ZM2.88672 0H2.38672V2.52941H2.88672H3.38672V0H2.88672ZM2.88672 7.58824H2.38672V12.6471H2.88672H3.38672V7.58824H2.88672ZM2.88672 17.7059H2.38672V22.7647H2.88672H3.38672V17.7059H2.88672ZM2.88672 27.8235H2.38672V32.8824H2.88672H3.38672V27.8235H2.88672ZM2.88672 37.9412H2.38672V43H2.88672H3.38672V37.9412H2.88672ZM2.88672 48.0588H2.38672V53.1176H2.88672H3.38672V48.0588H2.88672ZM2.88672 58.1765H2.38672V63.2353H2.88672H3.38672V58.1765H2.88672ZM2.88672 68.2941H2.38672V73.3529H2.88672H3.38672V68.2941H2.88672ZM2.88672 78.4118H2.38672V83.4706H2.88672H3.38672V78.4118H2.88672ZM2.88672 88.5294H2.38672V93.5882H2.88672H3.38672V88.5294H2.88672ZM2.88672 98.647H2.38672V103.706H2.88672H3.38672V98.647H2.88672ZM2.88672 108.765H2.38672V113.824H2.88672H3.38672V108.765H2.88672ZM2.88672 118.882H2.38672V123.941H2.88672H3.38672V118.882H2.88672ZM2.88672 129H2.38672V134.059H2.88672H3.38672V129H2.88672ZM2.88672 139.118H2.38672V144.176H2.88672H3.38672V139.118H2.88672ZM2.88672 149.235H2.38672V154.294H2.88672H3.38672V149.235H2.88672ZM2.88672 159.353H2.38672V164.412H2.88672H3.38672V159.353H2.88672Z"
+                            fill="#BCC1CA" />
+                    </svg>
+                </div>
+                <div class="flex items-center">
+                    <div>
+                        <h1 class="text-[#878CED] font-archivo font-bold text-4xl leading-[56px]">2020</h1>
+                        <p class="font-inter font-medium text-2xl text-[#323842] leading-[35px] md:w-[600px]">Ut non
+                            dolor
+                            anim cupidatat sunt pariatur labore ex excepteur labore laborum sit Lorem. Dolor non
+                            proident
+                            amet in exercitation aute anim reprehende</p>
+                    </div>
+                </div>
+            </div>
+            <svg class="absolute bottom-9 right-300" width="220" height="389" viewBox="0 0 220 389" fill="none"
+                xmlns="http://www.w3.org/2000/svg">
+                <path
+                    d="M0.548828 2.54401C44.3488 -6.58931 142.349 2.54401 185.349 80.144C242.793 183.811 221.749 268.699 166.149 296.544C110.549 324.389 63.9488 321.544 0.548828 389.344"
+                    stroke="#22CCB2" stroke-opacity="0.7" stroke-width="2.4" stroke-linecap="round"
+                    stroke-dasharray="9.6 9.6" />
+            </svg>
+        </section>
     </div>
-  </footer>
 
 
-  <!-- <section class="w-full mt-20">
+    <!--getting started section-->
+    <section class="w-full mt-20">
+        <div class="max-w-[1440px] mx-auto md:px-30 px-5">
+            <div class="w-full border-2 border-[#171A1F] rounded-2xl flex flex-col gap-6 items-center py-10 relative">
+                <h5 class="font-archivo font-bold text-[48px] text-[#171A1F] text-center">Getting started</h5>
+                <button type="button"
+                    class="text-white bg-[#6CB174] box-border border border-transparent hover:bg-success-strong focus:ring-4 focus:ring-success-medium shadow-xs font-bold font-inter text-[18px] leading-5 rounded-full text-sm px-4 py-2.5 focus:outline-none w-[242px] h-[52px]">Sign
+                    Up</button>
+                <img src="./img/pink-arr.png" class="hidden xl:flex absolute right-94 top-29" alt="">
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="w-full mt-20">
+    <div class="max-w-[1440px] mx-auto md:px-30 px-5">
+
+    </div>
+  </section> -->
+
+    <!--get in touch section-->
+    <section class="w-full  bg-[#1D2128]">
+        <div
+            class="w-full md:max-w-[px] h-fit md:min-h-[522px] lg:pb-0 pb-[40px] md:px-[132px] px-[20px] md:pt-[56px] pt-[20px] mt-[100px] md:flex justify-between flex-wrap lg:flex-nowrap gap-10 max-w-[1440px] mx-auto">
+            <div>
+                <p
+                    class="w-fit min-w-[52px] h-fit min-h-[24px] rounded-[6px] text-[48px] text-[#FFFFFF] font-bold leading-[74px] font-archivo">
+                    Get In Touch</p>
+                <div class="md:mt-[200px] mt-[20px] flex gap-[40px]">
+                    <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path
+                            d="M224.3 141a115 115 0 1 0 -.6 230 115 115 0 1 0 .6-230zm-.6 40.4a74.6 74.6 0 1 1 .6 149.2 74.6 74.6 0 1 1 -.6-149.2zm93.4-45.1a26.8 26.8 0 1 1 53.6 0 26.8 26.8 0 1 1 -53.6 0zm129.7 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM399 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z" />
+                    </svg>
+                    <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path
+                            d="M92.7 58.8l78.4 78.4c18.2-25 28.9-55.9 28.9-89.2 0-14.1-1.9-27.7-5.5-40.6-38 9.4-72.6 27.2-101.8 51.4zM58.8 92.7c-24.2 29.2-42 63.8-51.4 101.8 12.9 3.6 26.5 5.5 40.6 5.5 33.3 0 64.1-10.7 89.2-28.9L58.8 92.7zM256 0c-4.6 0-9.2 .1-13.7 .4 3.7 15.3 5.7 31.2 5.7 47.6 0 46.6-15.9 89.4-42.6 123.4L256 222.1 419.3 58.8C374.9 22.1 318.1 0 256 0zM48 248c-16.4 0-32.4-2-47.6-5.7-.2 4.5-.4 9.1-.4 13.7 0 62.1 22.1 118.9 58.8 163.3L222.1 256 171.4 205.4C137.4 232.1 94.6 248 48 248zm463.6 21.7c.2-4.5 .4-9.1 .4-13.7 0-62.1-22.1-118.9-58.8-163.3L289.9 256 340.6 306.6c34-26.7 76.9-42.6 123.4-42.6 16.4 0 32.4 2 47.6 5.7zm-7.1 47.8c-12.9-3.6-26.5-5.5-40.6-5.5-33.3 0-64.1 10.7-89.2 28.9l78.4 78.4c24.2-29.2 42-63.8 51.4-101.8zM340.9 374.8c-18.2 25-28.9 55.9-28.9 89.2 0 14.1 1.9 27.7 5.5 40.6 38-9.4 72.6-27.2 101.8-51.4l-78.4-78.4zm-34.3-34.3L256 289.9 92.7 453.2c44.3 36.7 101.2 58.8 163.3 58.8 4.6 0 9.2-.1 13.7-.4-3.7-15.3-5.7-31.2-5.7-47.6 0-46.6 15.9-89.4 42.6-123.4z" />
+                    </svg>
+                    <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 448 512">
+                        <path
+                            d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z" />
+                    </svg>
+                    <svg class="w-[24px] h-[24px] fill-[#ffffff]" xmlns="http://www.w3.org/2000/svg"
+                        viewBox="0 0 512 512">
+                        <path
+                            d="M61.4 64C27.5 64 0 91.5 0 125.4 0 126.3 0 127.1 .1 128L0 128 0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256-.1 0c0-.9 .1-1.7 .1-2.6 0-33.9-27.5-61.4-61.4-61.4L61.4 64zM464 192.3L464 384c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-191.7 154.8 117.4c31.4 23.9 74.9 23.9 106.4 0L464 192.3zM48 125.4C48 118 54 112 61.4 112l389.2 0c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7z" />
+                    </svg>
+                </div>
+                <div class="flex gap-[10px] mt-[10px] items-center">
+                    <p
+                        class="w-fit min-w-[126px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
+                        © 2022 Brand, Inc. <span class="absolute text-[30px] mt-[-6px] ml-[5px]">.</span></p>
+                    <p
+                        class="w-fit min-w-[49px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
+                        Privacy <span class="absolute text-[30px] mt-[-6px] ml-[5px]">.</span></p>
+                    <p
+                        class="w-fit min-w-[41px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
+                        Terms<span class="absolute text-[30px] mt-[-6px] ml-[5px]">.</span></p>
+                    <p
+                        class="w-fit min-w-[54px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-inter text-[#ffffff]">
+                        Sitemap</p>
+                </div>
+            </div>
+
+            <div class="md:mt-0 mt-[70px]">
+                <div class="text-[#ffffff] font-bold font-inter">
+                    <label class="absolute w-[52px] mt-[-20px] pt-2 ml-[7px] bg-[#1D2128] text-[18px]"
+                        for="name">Name</label>
+                    <input
+                        class="w-full md:w-fit xl:min-w-[587px] md:min-w-[336px] h-fit min-h-[59px] border-[1px] border-[#DEE1E6] rounded-[6px] pl-[20px] font-normal bg-[#1D2128] placeholder:text-[#BCC1CA]"
+                        type="text" placeholder="Enter your Name">
+                </div>
+                <div class="text-[#ffffff] font-bold font-inter mt-[30px]">
+                    <label class="absolute w-[60px] mt-[-20px] pt-2 ml-[7px] bg-[#1D2128] text-[18px]"
+                        for="name">Email</label>
+                    <input
+                        class="w-full md:w-fit xl:min-w-[587px] md:min-w-[336px]  h-fit min-h-[59px] border-[1px] border-[#DEE1E6] rounded-[6px] pl-[20px] font-normal bg-[#1D2128] placeholder:text-[#BCC1CA]"
+                        type="email" placeholder="Enter your Email">
+                </div>
+                <div class="text-[#ffffff] font-bold font-inter mt-[30px]">
+                    <label class="absolute w-[180px] mt-[-20px] pt-2 ml-[7px] text-[18px]" for="name">How can we
+                        help?</label>
+                    <textarea
+                        class="w-full md:w-fit xl:min-w-[587px] md:min-w-[336px] h-fit min-h-[147px] border-[1px] border-[#DEE1E6] rounded-[6px] pl-[20px] pt-[15px] font-normal bg-[#1D2128] placeholder:text-[#BCC1CA] text-white resize-none"
+                        placeholder="Enter your message here"></textarea>
+                </div>
+                <button
+                    class="min-w-[173px] h-fit min-h-[52px] bg-[#636AE8] text-[#FFFFFF] rounded-[6px] leading-[28px] text-[18px] font-poppins mt-[30px] font-semibold">Submit</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- <section class="w-full mt-20">
+    <div class="max-w-[1440px] mx-auto md:px-30 px-5">
+
+    </div>
+  </section> -->
+
+    <footer
+        class="w-full md:max-w-[px] h-fit min-h-[434px] md:px-[132px] px-[20px] md:pt-[102px] pt-[50px] bg-[#ffffff] mt-[px] md:flex justify-between max-w-[1440px] mx-auto gap-5 flex-wrap lg:flex-nowrap">
+        <div class="flex xl:gap-[70px] gap-[10px]">
+            <div>
+                <p
+                    class="w-fit min-w-[63px] h-fit min-h-[30px] text-[20px] font-bold leading-[40px] font-poppins text-[#000000]">
+                    About</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Home</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Shop</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Our story</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Blogs</p>
+            </div>
+
+            <div class="ml-[15px]">
+                <p
+                    class="w-fit min-w-[63px] h-fit min-h-[30px] text-[20px] font-bold leading-[40px] font-poppins text-[#000000]">
+                    Help</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Shipping & Returns</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Track Order</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    FAQs</p>
+            </div>
+
+            <div>
+                <p
+                    class="w-fit min-w-[63px] h-fit min-h-[30px] text-[20px] font-bold leading-[40px] font-poppins text-[#000000]">
+                    Contact</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Phone:</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-bold leading-[40px] font-poppins text-[#000000]">
+                    (+1) 123 456 7893</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-normal leading-[40px] font-poppins text-[#000000]">
+                    Email:</p>
+                <p
+                    class="w-fit min-w-[42px] h-fit min-h-[22px] text-[14px] font-bold leading-[40px] font-poppins text-[#000000]">
+                    name@email.com</p>
+            </div>
+        </div>
+
+        <div>
+            <p
+                class="w-fit md:min-w-[303px] h-fit min-h-[36px] md:text-[26px] text-[24px] font-bold leading-[36px] font-poppins text-[#000000] md:mt-0 mt-[20px]">
+                Receive new promotions</p>
+            <p
+                class="w-fit md:min-w-[357px] h-fit min-h-[26px] md:text-[18px] text-[14px] font-normal leading-[26px] font-poppins text-[#000000] mt-[10px]">
+                Duis ea tempor commodo amet reprehende</p>
+
+            <div class="flex items-center mt-[20px]">
+                <div
+                    class="w-fit md:min-w-[303px] h-fit min-h-[53px] rounded-l-[16px] border-[1px] border-[#000000] pl-[20px]">
+                    <span class="flex gap-[8px]">
+                        <svg class="w-[18.86px] h-[15.43] mt-[10px]" xmlns="http://www.w3.org/2000/svg"
+                            viewBox="0 0 512 512">
+                            <path
+                                d="M61.4 64C27.5 64 0 91.5 0 125.4 0 126.3 0 127.1 .1 128L0 128 0 384c0 35.3 28.7 64 64 64l384 0c35.3 0 64-28.7 64-64l0-256-.1 0c0-.9 .1-1.7 .1-2.6 0-33.9-27.5-61.4-61.4-61.4L61.4 64zM464 192.3L464 384c0 8.8-7.2 16-16 16L64 400c-8.8 0-16-7.2-16-16l0-191.7 154.8 117.4c31.4 23.9 74.9 23.9 106.4 0L464 192.3zM48 125.4C48 118 54 112 61.4 112l389.2 0c7.4 0 13.4 6 13.4 13.4 0 4.2-2 8.2-5.3 10.7L280.2 271.5c-14.3 10.8-34.1 10.8-48.4 0L53.3 136.1c-3.3-2.5-5.3-6.5-5.3-10.7z" />
+                        </svg>
+                        <p
+                            class="w-fit min-w-[136px] h-fit min-h-[28px] md:text-[18px] text-[14px] font-normal leading-[28px] font-poppins text-[#000000] mt-[10px]">
+                            Input your email</p>
+                    </span>
+                </div>
+                <div class="w-fit md:min-w-[126px] h-fit min-h-[52px] rounded-r-[16px] bg-[#636AE8] ">
+                    <p
+                        class="w-fit min-w-[86px] h-fit min-h-[28px] md:text-[18px] text-[14px] font-normal leading-[28px] font-poppins text-[#000000] mt-[px] text-[#ffffff] mt-[10px] ml-[19px]">
+                        Subscribe</p>
+                </div>
+            </div>
+            <div class="flex gap-[10px] mt-[30px]">
+                <svg class="w-[24px] h-[24px] fill-[#2EBAE8]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M459.4 151.7c.3 4.5 .3 9.1 .3 13.6 0 138.7-105.6 298.6-298.6 298.6-59.5 0-114.7-17.2-161.1-47.1 8.4 1 16.6 1.3 25.3 1.3 49.1 0 94.2-16.6 130.3-44.8-46.1-1-84.8-31.2-98.1-72.8 6.5 1 13 1.6 19.8 1.6 9.4 0 18.8-1.3 27.6-3.6-48.1-9.7-84.1-52-84.1-103l0-1.3c14 7.8 30.2 12.7 47.4 13.3-28.3-18.8-46.8-51-46.8-87.4 0-19.5 5.2-37.4 14.3-53 51.7 63.7 129.3 105.3 216.4 109.8-1.6-7.8-2.6-15.9-2.6-24 0-57.8 46.8-104.9 104.9-104.9 30.2 0 57.5 12.7 76.7 33.1 23.7-4.5 46.5-13.3 66.6-25.3-7.8 24.4-24.4 44.8-46.1 57.8 21.1-2.3 41.6-8.1 60.4-16.2-14.3 20.8-32.2 39.3-52.6 54.3z" />
+                </svg>
+                <svg class="w-[24px] h-[24px] fill-[#2E6FE8]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+                    <path
+                        d="M512 256C512 114.6 397.4 0 256 0S0 114.6 0 256C0 376 82.7 476.8 194.2 504.5l0-170.3-52.8 0 0-78.2 52.8 0 0-33.7c0-87.1 39.4-127.5 125-127.5 16.2 0 44.2 3.2 55.7 6.4l0 70.8c-6-.6-16.5-1-29.6-1-42 0-58.2 15.9-58.2 57.2l0 27.8 83.6 0-14.4 78.2-69.3 0 0 175.9C413.8 494.8 512 386.9 512 256z" />
+                </svg>
+                <svg class="w-[24px] h-[24px] fill-[#7797E4]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512">
+                    <path
+                        d="M416 32L31.9 32C14.3 32 0 46.5 0 64.3L0 447.7C0 465.5 14.3 480 31.9 480L416 480c17.6 0 32-14.5 32-32.3l0-383.4C448 46.5 433.6 32 416 32zM135.4 416l-66.4 0 0-213.8 66.5 0 0 213.8-.1 0zM102.2 96a38.5 38.5 0 1 1 0 77 38.5 38.5 0 1 1 0-77zM384.3 416l-66.4 0 0-104c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9l0 105.8-66.4 0 0-213.8 63.7 0 0 29.2 .9 0c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9l0 117.2z" />
+                </svg>
+                <svg class="w-[24px] h-[24px] fill-[#E82E2E]" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512">
+                    <path
+                        d="M549.7 124.1C543.5 100.4 524.9 81.8 501.4 75.5 458.9 64 288.1 64 288.1 64S117.3 64 74.7 75.5C51.2 81.8 32.7 100.4 26.4 124.1 15 167 15 256.4 15 256.4s0 89.4 11.4 132.3c6.3 23.6 24.8 41.5 48.3 47.8 42.6 11.5 213.4 11.5 213.4 11.5s170.8 0 213.4-11.5c23.5-6.3 42-24.2 48.3-47.8 11.4-42.9 11.4-132.3 11.4-132.3s0-89.4-11.4-132.3zM232.2 337.6l0-162.4 142.7 81.2-142.7 81.2z" />
+                </svg>
+            </div>
+
+            <div class="flex gap-[20px] mt-[30px] flex-wrap">
+                <p
+                    class="w-fit min-w-[126px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
+                    © 2022 Brand, Inc. <span class="absolute text-[30px] mt-[-10px] ml-[5px]">.</span></p>
+                <p
+                    class="w-fit min-w-[49px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
+                    Privacy<span class="absolute text-[30px] mt-[-10px] ml-[5px]">.</span></p>
+                <p
+                    class="w-fit min-w-[41px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
+                    Terms<span class="absolute text-[30px] mt-[-10px] ml-[5px]">.</span></p>
+                <p
+                    class="w-fit min-w-[54px] h-fit min-h-[22px] text-[14px] font-normal leading-[22px] font-poppins text-[#000000]">
+                    Sitemap</p>
+            </div>
+        </div>
+    </footer>
+
+
+    <!-- <section class="w-full mt-20">
     <div class="max-w-[1440px] mx-auto md:px-30 px-5">
 
     </div>
   </section> -->
 
 
-  <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
+    <script src="../path/to/flowbite/dist/flowbite.min.js"></script>
 </body>
 
 </html>
