@@ -239,6 +239,7 @@
     --text-9xl--line-height: 1;
     --font-weight-thin: 100;
     --font-weight-extralight: 200;
+    --font-weight-light: 300;
     --font-weight-normal: 400;
     --font-weight-medium: 500;
     --font-weight-semibold: 600;
@@ -4660,6 +4661,9 @@
   .max-w-\[1113px\] {
     max-width: 1113px;
   }
+  .max-w-\[1440\] {
+    max-width: 1440;
+  }
   .max-w-\[1440px\] {
     max-width: 1440px;
   }
@@ -4911,6 +4915,9 @@
   .gap-y-\[65px\] {
     row-gap: 65px;
   }
+  .self-center {
+    align-self: center;
+  }
   .self-end {
     align-self: flex-end;
   }
@@ -4942,6 +4949,9 @@
   }
   .overflow-y-auto {
     overflow-y: auto;
+  }
+  .rounded {
+    border-radius: var(--radius);
   }
   .rounded-2xl {
     border-radius: var(--radius-2xl);
@@ -5467,6 +5477,9 @@
   .px-2 {
     padding-inline: calc(var(--spacing) * 2);
   }
+  .px-3 {
+    padding-inline: calc(var(--spacing) * 3);
+  }
   .px-4 {
     padding-inline: calc(var(--spacing) * 4);
   }
@@ -5487,6 +5500,12 @@
   }
   .px-20 {
     padding-inline: calc(var(--spacing) * 20);
+  }
+  .px-23 {
+    padding-inline: calc(var(--spacing) * 23);
+  }
+  .px-25 {
+    padding-inline: calc(var(--spacing) * 25);
   }
   .px-30 {
     padding-inline: calc(var(--spacing) * 30);
@@ -5517,6 +5536,9 @@
   }
   .py-5 {
     padding-block: calc(var(--spacing) * 5);
+  }
+  .py-8 {
+    padding-block: calc(var(--spacing) * 8);
   }
   .py-10 {
     padding-block: calc(var(--spacing) * 10);
@@ -5677,6 +5699,9 @@
     color: var(--color-body);
     font-size: 0.875rem;
   }
+  .text-\[10px\] {
+    font-size: 10px;
+  }
   .text-\[11px\] {
     font-size: 11px;
   }
@@ -5803,6 +5828,10 @@
     --tw-font-weight: var(--font-weight-extrabold);
     font-weight: var(--font-weight-extrabold);
   }
+  .font-light {
+    --tw-font-weight: var(--font-weight-light);
+    font-weight: var(--font-weight-light);
+  }
   .font-medium {
     --tw-font-weight: var(--font-weight-medium);
     font-weight: var(--font-weight-medium);
@@ -5903,6 +5932,9 @@
   }
   .text-\[\#FFFFFF\] {
     color: #FFFFFF;
+  }
+  .text-\[\#\] {
+    color: #;
   }
   .text-\[\#ffffff\] {
     color: #ffffff;
@@ -6296,14 +6328,32 @@
     .md\:gap-\[48px\] {
       gap: 48px;
     }
+    .md\:px-8 {
+      padding-inline: calc(var(--spacing) * 8);
+    }
+    .md\:px-20 {
+      padding-inline: calc(var(--spacing) * 20);
+    }
     .md\:px-30 {
       padding-inline: calc(var(--spacing) * 30);
+    }
+    .md\:px-38 {
+      padding-inline: calc(var(--spacing) * 38);
+    }
+    .md\:px-48 {
+      padding-inline: calc(var(--spacing) * 48);
     }
     .md\:px-\[60px\] {
       padding-inline: 60px;
     }
     .md\:px-\[132px\] {
       padding-inline: 132px;
+    }
+    .md\:py-5 {
+      padding-block: calc(var(--spacing) * 5);
+    }
+    .md\:py-16 {
+      padding-block: calc(var(--spacing) * 16);
     }
     .md\:pt-\[56px\] {
       padding-top: 56px;
@@ -6321,11 +6371,19 @@
       font-size: var(--text-5xl);
       line-height: var(--tw-leading, var(--text-5xl--line-height));
     }
+    .md\:text-lg {
+      font-size: var(--text-lg);
+      line-height: var(--tw-leading, var(--text-lg--line-height));
+    }
     .md\:text-\[18px\] {
       font-size: 18px;
     }
     .md\:text-\[26px\] {
       font-size: 26px;
+    }
+    .md\:font-medium {
+      --tw-font-weight: var(--font-weight-medium);
+      font-weight: var(--font-weight-medium);
     }
   }
   @media (width >= 64rem) {
